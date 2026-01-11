@@ -1,14 +1,25 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <input type="text" id="input-el">
-        <button id="input-btn">SAVE INPUT</button>
-        <button id="tab-btn">SAVE TAB</button>
-        <button id="delete-btn">DELETE ALL</button>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leads Tracker</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Leads Tracker</h1>
+        <div class="input-wrapper">
+            <input type="text" id="input-el" placeholder="Type or paste URL here...">
+        </div>
+        <div class="button-group">
+            <button id="input-btn">SAVE INPUT</button>
+            <button id="tab-btn">SAVE TAB</button>
+            <button id="delete-btn">DELETE ALL</button>
+        </div>
         <ul id="ul-el">
         </ul>
-        <script src="index.js"></script>
-    </body>
+    </div>
+    <script src="index.js"></script>
+</body>
 </html>
